@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+:root {
+    --gutter-width: 15px;
+}
+.py-100{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.container {
+    margin: 0 auto;
+    width: 1320px;
+    padding-left: var(--gutter-width);
+    padding-right:var(--gutter-width) ;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: calc(-1 * var(--gutter-width));
+    margin-right: calc(-1 *var(--gutter-width) );
+}
+
+.w-4 {
+    width: 33.3333%;
+}
+.name h1 ,span{
+    font-size: 30px;
+    margin-left: 10px;
+}
+.informane{
+    padding: 20px;
+    border: 2px solid rebeccapurple;
+}
+.name-informance{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
